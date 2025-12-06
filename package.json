@@ -1,7 +1,7 @@
 {
-  "name": "galilean-grammar",
+  "name": "aramaicnt",
   "version": "1.0.0",
-  "description": "A Grammar of Galilean Aramaic",
+  "description": "The Galilean Aramaic Gospels",
   "scripts": {
     "build": "npx @11ty/eleventy"
   },
