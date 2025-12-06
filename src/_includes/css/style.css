@@ -1,0 +1,305 @@
+/* Style Sheet */
+@font-face {
+    font-family: 'Noto Sans Syriac';
+    src: url('/fonts/NotoSansSyriac-VariableFont_wght.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('/fonts/EBGaramond-VariableFont_wght.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('/fonts/EBGaramond-Italic-VariableFont_wght.ttf')  format('truetype');
+    font-style: italic;
+}
+
+* {
+    box-sizing:border-box;
+}
+
+body {
+    font-family:'EB Garamond', "Noto Sans Syriac";
+    padding:0;
+    margin:0;
+    font-size:16pt;
+    text-align:justify;
+    background-color:#181713;
+}
+
+a.direct-link {
+    color:lightgray;
+}
+a.direct-link:hover {
+    color:black;
+}
+
+body :target {
+    background-color:rgb(225, 200, 160);
+    scroll-margin-top: 3em;
+    border-radius:4px;
+}
+
+/* Herodian Font w/Palestinian Vowels */
+@font-face {
+    font-family: 'Galilean';
+    src: url('/fonts/GalHerodPalVow9.ttf')  format('truetype');
+}
+
+gal {
+    display:inline-block;
+    font-family: Galilean;
+    font-size:210%;
+    line-height:50%;
+}
+
+/* Syriac text */
+syr {
+    text-align:right;
+    display:inline-block;
+}
+
+.footnote-item syr {
+    display:block;
+}
+.footnote-item grk {
+    display:block;
+}
+#apparatus p {
+    margin-left:5vw;
+    margin-right:5vw;
+}
+
+/* Footnotes */
+.footnote-ref {
+    font-size:70%;
+}
+.footnotes-sep {
+    margin-top:6em;
+}
+.footnotes p {
+    padding-bottom:1ex;
+}
+
+/* Tables */
+table {
+    max-width:100%;
+    margin-left:auto;
+    margin-right:auto;
+} 
+
+/* Chapters */
+body {
+    display:flex;
+    flex-direction:row;
+}
+nav {
+    min-height:100vh;
+}
+#toc, main {
+    min-height:100vh;
+    padding:3vw;
+    padding-bottom:10vh;
+}
+nav {
+    width:40%;
+}
+main {
+    width:60%;
+    padding-right:10vw;
+    padding-left:5vw;
+    box-shadow:20px 0px 20px rgba(0,0,0,.33) inset;
+    background-color:white;
+    padding-bottom:6em;
+}
+#toc {
+    background-color:#273129;
+    color:white;
+    position:sticky;
+    top:0;
+    height: 100vh;
+    scrollbar-color: #777 #5555;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-items:center;
+}
+#toc h1,
+#toc h2,
+#toc h3,
+#toc h4 {
+    text-align:center;
+    margin:.75ex;
+}
+#toc a {
+    color:white;
+}
+#parts {
+    overflow:auto;
+    padding-right:1em;
+}
+
+#hamburger {
+    display:none;
+}
+
+#toggle {
+    display:none;
+}
+
+table td, table th {
+    padding-left:.1ex;
+    padding-right:1ex;
+}
+
+small {
+    font-size:70%;
+}
+
+footer {
+    color:#999;
+    font-size:75%;
+    font-style:italic;
+    text-align:center;
+    padding-top:5em;
+}
+
+#mobileTitle {
+    display:none;
+    font-size:50%;
+    border:1px solid black;
+    padding-left:1em;
+    padding-right:1em;
+    border-radius:15px;
+    text-align:center;
+}
+#mobileTitle h1 {
+    font-size:18px;
+}
+#mobileTitle h4 {
+    font-size:12px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    #mobileTitle {
+        display:inline-block;
+    }
+
+    body {
+        display:block;
+    }
+
+    table {
+        font-size:12pt;
+    }
+
+    main,nav {
+        position:absolute;
+        top:0px;
+        width:100vw;
+        min-height:90vh;
+        overflow:scroll;
+    }
+
+    nav {
+        z-index:1000;
+        transition-duration:1s;
+        position:fixed;
+        top: 0px;
+        height:100vh;
+        overflow:scroll;
+    }
+    #toggle:checked ~ nav {
+        transition-duration:1s;
+        transform:translateY(-100vh);
+    }
+
+    #toc {
+        background-color:rgba(49, 47, 39, 0.97);
+    }
+
+    h1,h2,h3,h4,h5,h6 {
+        font-size:24pt;
+    }
+
+    #hamburger {
+        z-index:2000;
+        display:block;
+        position:fixed;
+        top:6vw;
+        right:4vw;
+        width:10vw;
+        height:10vw;
+        overflow:visible;
+    }
+
+    #hamburger:before {
+        transition-duration:1s;
+        content: "";
+        position: absolute;
+
+        border-radius:5px;
+
+        top:0;
+        right:0;
+
+        width:10vw;
+        height:1.5vw;
+
+        background-color: white;
+
+        box-shadow: 
+            0  4vw 0 white,
+            0  8vw 0 white;
+    }
+
+    #toggle:checked ~ #hamburger:before {
+        transition-duration:1s;
+        background-color: black;
+
+        box-shadow: 
+            0  4vw 0 black,
+            0  8vw 0 black;
+    }
+
+}
+
+/* Fix images sloughing off the side */
+img {
+    max-width:100%;
+}
+
+
+/* Special Links */
+#front_parts {
+    padding-left:0;
+    text-align:center;
+}
+#front_parts li {
+    list-style: none;
+    margin-bottom:1ex;
+}
+#front_parts li a {
+    display:inline-block;
+    border:1px solid rgba(255,255,255,.65);
+    border-radius:20px;
+    text-decoration:none;
+    padding: 0 1ex;
+}
+#front_parts li a:hover {
+    border:1px solid rgba(255,255,255,1);
+}
+.the_book, .the_app {
+    background-color: rgba(49, 47, 39, 1);
+}
+.the_app {
+    background-color: rgba(49, 92, 140, 1);
+}
+
+/* Make the quotes more prominent */
+main center {
+    border:1px solid #AAA;
+    border-radius:5px;
+    background-color:#FFF;
+}

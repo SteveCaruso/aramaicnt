@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/bundle.css">
+</head>
+
+<body>
+
+    {% include "nav.njk" %}
+
+    <main>
+
+        <div id="mobileTitle">
+            <h1>Elementary Galilean Aramaic</h1>
+            <h4><gal>$Er N:m hayyalIlag hana$Il</gal></h4>
+        </div>
+
+        <h1>{{ title }}</h1>
+
+        {{ content | safe }}
+
+        {% include "footer.njk" %}
+
+    </main>
+
+</body>
+
+</html>

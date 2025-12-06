@@ -1,0 +1,9 @@
+# Ignore the built site
+_site
+resources
+
+# Ignore local scratch files
+local-rubbish
+
+# Ignore the black hole of node modules
+node_modules
