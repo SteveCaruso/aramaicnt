@@ -3,7 +3,7 @@ layout: general.njk
 title: The Galilean Aramaic Gospels
 ---
 
-The ***Galilean Aramaic Gospels*** is an effort of taking a public domain version of the Canonical Gospels and interpolating wherever Jesus or his followers are speaking with a simple transliteration of their words in a reconstruction of their original language, and then analyzing those words for any word plays or other significance beyond what can be gleaned from the original Greek text.
+The ***Galilean Aramaic Gospels*** is an effort of taking a public domain version of the Canonical Gospels and interpolating wherever Jesus or his followers are speaking with a simple transliteration of their words in a reconstruction of their original language, and then analyzing those words for any word plays or other significance beyond what can be gleaned from the original Greek text. ***This is very much a work in progress.***
 
 <div style="text-align:center; font-size:120%; font-weight:bold;">
 
