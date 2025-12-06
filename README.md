@@ -1,13 +1,13 @@
-# A Grammar of Galilean Aramaic
+# Aramaic Words Translation
 
 ## Introduction to the Repository
 
-This is my hitherto unpublished grammar of the Galilean Aramaic language. I've decided to put it up on Github so that it is easily accessible and easier to maintain.
+This is my attempt to translate the spoken works in the Gospels into Aramaic contemporary to Christ and his followers.
 
 I retain all copyrights on this work insofar as to protect it against misuse. It is free for personal use and may be cited freely with attribution (including the date, in case of subsequent revision).
 
 **-Steve Caruso**  
-*Monday April 21st 2025*
+*Friday Dec 5 2025*
 
 # Format
 
