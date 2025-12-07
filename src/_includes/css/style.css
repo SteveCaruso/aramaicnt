@@ -112,7 +112,7 @@ main {
     padding-bottom:6em;
 }
 #toc {
-    background-color:#273129;
+    background-color:rgb(39, 49, 41);
     color:white;
     position:sticky;
     top:0;
@@ -216,7 +216,7 @@ footer {
     }
 
     #toc {
-        background-color:rgba(49, 47, 39, 0.97);
+        background-color:rgba(39, 49, 41,.97);
     }
 
     h1,h2,h3,h4,h5,h6 {

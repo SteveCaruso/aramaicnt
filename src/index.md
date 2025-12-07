@@ -44,13 +44,13 @@ If you would like to help support the project, you can [visit my KoFi page](http
 
 ## Copyright
 
-This document is &copy; 2017-2025, but you may freely cite it with the following information, with the date of access (as I plan to make updates into the future):
+This document is &copy; 2017-<span class="year">(YEA)</span>, but you may freely cite it with the following information, with the date of access (as I plan to make updates into the future):
 
-> **APA:** Caruso, S. (2025, April). The Galilean Aramaic Gospels:  לישנה גלילייה מן ריש. Retrieved <span class="month">(Month)</span> <span class="day">(Day)</span>, <span class="year">(YEA)</span>, from http://gospel.galileanaramaic.com
+> **APA:** Caruso, S. (2025, April). The Galilean Aramaic Gospels:  בשׂורתה דלישנה גלילייה. Retrieved <span class="month">(Month)</span> <span class="day">(Day)</span>, <span class="year">(YEA)</span>, from http://bible.galileanaramaic.com
 
-> **MLA:** Caruso, Steve. The Galilean Aramaic Gospels: לישנה גלילייה מן ריש. Apr. 2025, gospel.galileanaramaic.com. Accessed <span class="day">(Day)</span> <span class="month-short">(Short Month)</span>., <span class="year">(YEAR)</span>.
+> **MLA:** Caruso, Steve. The Galilean Aramaic Gospels: בשׂורתה דלישנה גלילייה. Apr. 2025, bible.galileanaramaic.com. Accessed <span class="day">(Day)</span> <span class="month-short">(Short Month)</span>., <span class="year">(YEAR)</span>.
 
-> **Chicago:** Caruso, Steve. 2025. “The Galilean Aramaic Gospels: לישנה גלילייה מן ריש.” April 2025. Accessed <span class="month">(Month)</span> <span class="day">(Day)</span>, <span class="year">(YEAR)</span>. http://gospel.galileanaramaic.com.
+> **Chicago:** Caruso, Steve. 2025. “The Galilean Aramaic Gospels: בשׂורתה דלישנה גלילייה.” April 2025. Accessed <span class="month">(Month)</span> <span class="day">(Day)</span>, <span class="year">(YEAR)</span>. http://bible.galileanaramaic.com.
 
 <script>
     
