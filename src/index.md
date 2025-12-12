@@ -7,7 +7,7 @@ The ***Galilean Aramaic Gospels*** is an effort of taking a public domain versio
 
 <div style="text-align:center; font-size:120%; font-weight:bold;">
 
-[Matthew (0/28)](/matthew/) — [Mark (2/16)](/mark/) — [Luke (0/24)](/luke/) — [John (0/21)](/john/)
+[Matthew (1/28)](/matthew/) — [Mark (2/16)](/mark/) — [Luke (0/24)](/luke/) — [John (0/21)](/john/)
 
 </div>
 
