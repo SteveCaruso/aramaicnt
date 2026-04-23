@@ -78,3 +78,4 @@ This document is &copy; 2017-<span class="year">(YEA)</span>, but you may freely
 ## News
 
 > **Dec 5 2025** -- First draft is up.
+> **Apr 23 2025** -- Adding in some new, albeit unfinished chapters.
